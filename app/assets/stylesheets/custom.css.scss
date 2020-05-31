@@ -1,0 +1,53 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+body {
+  background-color: #fff;
+}
+.navbar {
+  background-color: #080a25 !important; 
+  }
+.nav-link { /* home, about, articles */
+    color: #f8b9b6 !important;
+  } 
+
+#logo {
+  float: left;
+  font-size: 2rem;
+  color: #f8b9b6;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+/* image
+.jumbotron {
+  background-image : asset-url('gradient.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*/
+
+.jumbotron {
+  background: rgb(248,109,100);
+  background: linear-gradient(90deg, rgba(248,109,100,1) 0%, rgba(248,131,125,1) 50%, rgba(248,185,182,1) 100%);
+}
+
+/* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
